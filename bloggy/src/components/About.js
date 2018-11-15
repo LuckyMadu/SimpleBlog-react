@@ -1,5 +1,5 @@
 import React from "react";
-
+import Higher from "../hoc/Higher";
 const About = () => {
   return (
     <div className="container">
@@ -14,4 +14,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Higher(About);
